@@ -19,7 +19,12 @@
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
 
 # YOUR CODE HERE
+def fahr_to_celsius(tmep_fahrenheit):
+  converted_temp=(tmep_fahrenheit-32)/1.8
+  return converted_temp
 
+print("48 degrees Fahreheit in Celsius is:",fahr_to_celsius(48),"Ceksius")
+print("71 degrees Fahreheit in Celsius is:",fahr_to_celsius(71),"Ceksius")
 # ### Problem 1 tests
 # 
 # Check that the function produces correct answers for:
@@ -33,7 +38,8 @@
 # - Check that your function has a docstring that describes what it does
 # 
 # ### Questions
-# 
+# Yes.Function can be used to simplify the code.
+
 # We would like you to think about and answer the following questions based on the materials and ideas that you learned during the lecture:
 # 
 #   1. Is the concept of function clear to you? If not, what do you not understand?
